@@ -1,3 +1,4 @@
+#include <math.h>
 int SizeOfDataType (int data_type) {
 switch(data_type) {
         case 0:
