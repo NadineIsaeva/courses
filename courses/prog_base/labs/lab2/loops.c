@@ -1,10 +1,4 @@
-#include <stdio.h>
 #include <math.h>
-
-
-int n = 15;
-int m = 4;
-
 
 double calc(int n, int m)
 {
@@ -21,8 +15,4 @@ double calc(int n, int m)
     }
 
     return x;
-}
-
-int main () {
-    printf("%f ", calc(n, m));
 }
