@@ -1,4 +1,4 @@
-#include <stdlib.h>     /* srand, rand */
+#include <stdlib.h>     
 #include <time.h>
 #include <math.h>
 
@@ -161,6 +161,3 @@ void land(int arr1[], int arr2[], int res[], int size)
         res[i] = arr1[i] & arr2[i];
     }
 }
-
-int main(){}
-
