@@ -2,15 +2,15 @@
 #include <ctype.h>
 
 char * process(char * resultStr, const char * textLines[], int linesNum, const char * extraStr) {
-	*resultStr = NULL; //Обнуляємо на випадок, якщо там сміття
+	*resultStr = NULL;
 	int i;
 	for (i = 0; i < linesNum; ++i) {
-		char tempStr[100]; // Сюди записуємо букви у нижньому регітсрі
+		char tempStr[100];
 		strcpy(tempStr, " ");
-		int upper = 0; // Сюди записуємо кількість букв у верхньому регістрі
-		int lower = 0; // Сюди записуємо кількість букв у нижньому регістрі
+		int upper = 0;
+		int lower = 0;
 
-		while (*textLines[i]) // Виконуємо доки вказівник вказує на існуючу комірку памяті
+		while (*textLines[i])
 		{
 			if (isupper(*textLines[i])) {
 				upper++;
@@ -19,7 +19,7 @@ char * process(char * resultStr, const char * textLines[], int linesNum, const c
 				lower++;
 				strncat(tempStr, &(*textLines[i]), 1);
 			}
-			*textLines[i]++; //Перевдимо вказівник на наступну область памяті
+			*textLines[i]++;
 		}
 		if (lower == upper) {
 			sprintf(resultStr, "%d%s", lower, tempStr);
