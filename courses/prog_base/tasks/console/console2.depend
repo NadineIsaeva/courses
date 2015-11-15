@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1447001836 source:c:\users\nadya\desktop\но\kr\console2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1447001836 source:c:\users\nadya\documents\repos\courses\courses\courses\prog_base\tasks\console\console\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1447001836 source:c:\users\nadya\documents\repos\courses\courses\courses\prog_base\tasks\console\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+

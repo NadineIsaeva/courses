@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include <windows.h>
 
-
-
 COORD moveUP (COORD pos, int border) {
     int color = FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_BLUE;
     HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
@@ -101,9 +99,10 @@ int main()
     int color_red = BACKGROUND_RED;
     int color_white = BACKGROUND_RED | BACKGROUND_GREEN | BACKGROUND_BLUE;
     int rBorder=79,lBorder=0,uBorder=0,dBorder=23;
+    int i;
     pos.X=0;
     pos.Y=24;
-    int i;
+
     for (i=0; i<14; i++) {
         pos = moveRIGHT(pos, rBorder);
         rBorder--;
