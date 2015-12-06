@@ -21,6 +21,13 @@ void print(int size, struct Planet * Planets)
 
 }
 
+void printOnePlanet (struct Planet *pVar)
+{
+    printf("Name of the planet: %s\n", pVar->pName);
+	printf("The number of satellites: %d\n", pVar->numOfSat);
+	printf("The color of the planet: %s\n\n", pVar->pColor);
+}
+
 int count(int size, struct Planet Planets[])
 {
     int i;
@@ -57,7 +64,14 @@ int main(void)
                             {"Pluto", 5, "dark beige"},
                             {"Ceres", 0, "dark gray"}};
 
-    print (size, Planets);
+    for (i=0; i < size; i++)
+    {
+        struct Planet *pVar = &Planets[i];
+        printf("%d) ", i+1);
+        printOnePlanet(pVar);
+    }
+
+    //print (size, Planets);
     count (size, Planets);
     printf("Number of planets without satellites: %d\n\n", count(size, Planets));
 
@@ -67,6 +81,7 @@ int main(void)
     change(pVar, "azaza kek");
     printf("Planets after renaming. Let's look for your renamed string!\n\n");
     print (size, Planets);
+
 
   /*Earth.pName = "Earth";
     Earth.numOfSat = 1;
