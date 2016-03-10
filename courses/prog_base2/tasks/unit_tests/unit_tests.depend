@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1456846911 source:c:\users\nadine\desktop\set.c
+	"set.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1456846485 c:\users\nadine\desktop\set.h
+
+1457634417 source:c:\users\nadine\desktop\unit_tests\set.c
+	"set.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1457634528 c:\users\nadine\desktop\unit_tests\set.h
+
+1457639007 source:c:\users\nadine\desktop\unit_tests\main.c
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<setjmp.h>
+	<cmocka.h>
+	"set.h"
+
