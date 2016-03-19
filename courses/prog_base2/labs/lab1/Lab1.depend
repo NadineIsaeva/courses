@@ -1,0 +1,83 @@
+# depslib dependency file v1.0
+1458389125 source:c:\users\nadine\desktop\lab1\hall.c
+	"hall.h"
+	"place.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	<Windows.h>
+
+1458389142 c:\users\nadine\desktop\lab1\hall.h
+	"user.h"
+	"place.h"
+
+1458389075 c:\users\nadine\desktop\lab1\user.h
+
+1458389175 c:\users\nadine\desktop\lab1\place.h
+	"user.h"
+
+1458389157 source:c:\users\nadine\desktop\lab1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<setjmp.h>
+	<cmocka.h>
+	<Windows.h>
+	"hall.h"
+	"place.h"
+	"user.h"
+
+1458389090 source:c:\users\nadine\desktop\lab1\place.c
+	"place.h"
+	"user.h"
+	<stdlib.h>
+
+1458389055 source:c:\users\nadine\desktop\lab1\user.c
+	"user.h"
+	"place.h"
+	"hall.h"
+	<string.h>
+	<stdlib.h>
+
+1458389125 source:c:\users\nadine\documents\github\courses\courses\prog_base2\labs\lab1\hall.c
+	"hall.h"
+	"place.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	<Windows.h>
+
+1458389142 c:\users\nadine\documents\github\courses\courses\prog_base2\labs\lab1\hall.h
+	"user.h"
+	"place.h"
+
+1458389075 c:\users\nadine\documents\github\courses\courses\prog_base2\labs\lab1\user.h
+
+1458389175 c:\users\nadine\documents\github\courses\courses\prog_base2\labs\lab1\place.h
+	"user.h"
+
+1458389157 source:c:\users\nadine\documents\github\courses\courses\prog_base2\labs\lab1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<setjmp.h>
+	<cmocka.h>
+	<Windows.h>
+	"hall.h"
+	"place.h"
+	"user.h"
+
+1458389090 source:c:\users\nadine\documents\github\courses\courses\prog_base2\labs\lab1\place.c
+	"place.h"
+	"user.h"
+	<stdlib.h>
+
+1458389055 source:c:\users\nadine\documents\github\courses\courses\prog_base2\labs\lab1\user.c
+	"user.h"
+	"place.h"
+	"hall.h"
+	<string.h>
+	<stdlib.h>
+
