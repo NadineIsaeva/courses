@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1458437081 source:c:\users\nadine\desktop\dataformats\cjson.c
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<float.h>
+	<limits.h>
+	<ctype.h>
+	"cJSON.h"
+
+1458437081 c:\users\nadine\desktop\dataformats\cjson.h
+
+1460322355 source:c:\users\nadine\desktop\dataformats\main.c
+	<stdio.h>
+	<stdlib.h>
+	"directors.h"
+
+1460322798 source:c:\users\nadine\desktop\dataformats\directors.c
+	"directors.h"
+	<stdio.h>
+	<time.h>
+	"cJSON.h"
+
+1460320522 c:\users\nadine\desktop\dataformats\directors.h
+

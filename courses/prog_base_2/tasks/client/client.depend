@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1459716925 source:c:\users\nadine\desktop\client\http_server.c
+	"http_server.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	<winsock2.h>
+
+1459714941 c:\users\nadine\desktop\client\http_server.h
+
+1459715873 source:c:\users\nadine\desktop\client\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"http_server.h"
+
+1459716925 source:c:\users\nadine\documents\github\courses\courses\prog_base_2\tasks\client\http_server.c
+	"http_server.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	<winsock2.h>
+
+1459714941 c:\users\nadine\documents\github\courses\courses\prog_base_2\tasks\client\http_server.h
+
+1459715873 source:c:\users\nadine\documents\github\courses\courses\prog_base_2\tasks\client\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"http_server.h"
+

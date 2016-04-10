@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1459729876 source:c:\users\nadine\desktop\Учеба\threads\array.c
+	"array.h"
+	<stdlib.h>
+
+1459729835 c:\users\nadine\desktop\Учеба\threads\array.h
+	<stdlib.h>
+
+1459733474 source:c:\users\nadine\desktop\Учеба\threads\consumer.c
+	"consumer.h"
+	"array.h"
+	<windows.h>
+	<stdio.h>
+
+1459733432 source:c:\users\nadine\desktop\Учеба\threads\main.c
+	"array.h"
+	"consumer.h"
+	"producer.h"
+	<time.h>
+	<stdlib.h>
+	<windows.h>
+
+1459733474 source:c:\users\nadine\desktop\Учеба\threads\producer.c
+	"producer.h"
+	"array.h"
+	<windows.h>
+
+1459729954 c:\users\nadine\desktop\Учеба\threads\producer.h
+	"array.h"
+	<windows.h>
+
+1459733424 c:\users\nadine\desktop\Учеба\threads\consumer.h
+	"array.h"
+	<windows.h>
+

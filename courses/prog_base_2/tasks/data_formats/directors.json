@@ -1,0 +1,46 @@
+[
+    {
+        "name": "Ruslan",
+        "surname": "Hadyniak",
+        "birthdate": "1992-03-09",
+        "startup": {
+            "name": "KPIdata",
+            "country": "Ukraine"
+        },
+        "salary": 500000,
+        "rating": 9.3
+    },
+    {
+        "name": "Anton",
+        "surname": "Timenko",
+        "birthdate": "1996-12-18",
+        "startup": {
+            "name": "KPIrozklad",
+            "country": "Ukraine"
+        },
+        "salary": 200000,
+        "rating": 9.3
+    },
+    {
+        "name": "Steve",
+        "surname": "Jobs",
+        "birthdate": "1955-02-24",
+        "startup": {
+            "name": "Apple",
+            "country": "USA"
+        },
+        "salary": 100500,
+        "rating": 9.5
+    },
+    {
+        "name": "Nadya",
+        "surname": "Isaeva",
+        "birthdate": "1998-01-22",
+        "startup": {
+            "name": "Memogenerator",
+            "country": "Ukraine"
+        },
+        "salary": 300,
+        "rating": 2.5
+    }
+]

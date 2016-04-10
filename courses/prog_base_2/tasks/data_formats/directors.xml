@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<directors>
+    <director>
+        <name>Ruslan</name>
+        <surname>Hadyniak</surname>
+        <birthdate>1992-03-09</birthdate>
+        <startup country='Ukraine'>KPIdata</startup>
+        <salary>500000</salary>
+        <rating>9.3</rating>
+    </director>
+    <director>
+        <name>Anton</name>
+        <surname>Timenko</surname>
+        <birthdate>1996-12-18</birthdate>
+        <startup country='Ukraine'>KPIrozklad</startup>
+        <salary>200000</salary>
+        <rating>9.3</rating>
+    </director>
+    <director>
+        <name>Steve</name>
+        <surname>Jobs</surname>
+        <birthdate>1955-02-24</birthdate>
+        <startup country='USA'>Apple</startup>
+        <salary>100500</salary>
+        <rating>9.5</rating>
+    </director>
+    <director>
+        <name>Nadya</name>
+        <surname>Isaeva</surname>
+        <birthdate>1998-01-22</birthdate>
+        <startup country='Ukraine'>Memogenerator</startup>
+        <salary>300</salary>
+        <rating>2.5</rating>
+    </director>
+</directors>
