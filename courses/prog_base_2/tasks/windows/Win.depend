@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1462330044 source:c:\users\a\desktop\win\main.cpp
+	<tchar.h>
+	<windows.h>
+	<CommCtrl.h>
+	<stdlib.h>
+
+1462330044 source:c:\users\nadine\desktop\win\main.cpp
+	<tchar.h>
+	<windows.h>
+	<CommCtrl.h>
+	<stdlib.h>
+

@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1462235172 source:c:\users\a\desktop\sqlite\main.c
+	"directors_db.h"
+	<conio.h>
+	<stdio.h>
+	<stdlib.h>
+
+1462232855 c:\users\a\desktop\sqlite\directors_db.h
+	<stdlib.h>
+
+1462237810 source:c:\users\a\desktop\sqlite\directors_db.c
+	"directors_db.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<sqlite3.h>
+
+1462237810 source:c:\users\nadine\desktop\sqlite\directors_db.c
+	"directors_db.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<sqlite3.h>
+
+1462232855 c:\users\nadine\desktop\sqlite\directors_db.h
+	<stdlib.h>
+
+1462235172 source:c:\users\nadine\desktop\sqlite\main.c
+	"directors_db.h"
+	<conio.h>
+	<stdio.h>
+	<stdlib.h>
+
