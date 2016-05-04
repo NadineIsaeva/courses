@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1462191979 source:c:\users\a\desktop\lab2\lab2staticlib\stack.c
+	"stack.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
+1462191954 c:\users\a\desktop\lab2\lab2staticlib\stack.h
+	<stdlib.h>
+
+1462191979 source:c:\users\nadine\desktop\lab2\lab2staticlib\stack.c
+	"stack.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
+1462192484 c:\users\nadine\desktop\lab2\lab2staticlib\stack.h
+	<stdlib.h>
+
