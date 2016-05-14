@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1462824352 source:c:\users\nadine\documents\github\courses\courses\prog_base_2\labs\lab2\lab2dll1\main.cpp
+	"main.h"
+	<stdio.h>
+	<string.h>
+	"../Lab2StaticLib/stack.h"
+
+1462192475 c:\users\nadine\documents\github\courses\courses\prog_base_2\labs\lab2\lab2dll1\main.h
+	<windows.h>
+	"../Lab2StaticLib/stack.h"
+
+1462192484 c:\users\nadine\documents\github\courses\courses\prog_base_2\labs\lab2\lab2staticlib\stack.h
+	<stdlib.h>
+

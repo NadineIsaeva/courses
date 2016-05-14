@@ -1,0 +1,118 @@
+# depslib dependency file v1.0
+1462339263 source:c:\users\a\desktop\lab3\file.c
+	"file.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
+1462334570 c:\users\a\desktop\lab3\file.h
+	<stdlib.h>
+
+1462340350 source:c:\users\a\desktop\lab3\main.c
+	"file.h"
+	"client.h"
+	"supadrive.h"
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<stdarg.h>
+	<stddef.h>
+	<setjmp.h>
+	<cmocka.h>
+
+1462335083 source:c:\users\a\desktop\lab3\client.c
+	"client.h"
+	<stdlib.h>
+	<string.h>
+
+1462335078 c:\users\a\desktop\lab3\client.h
+
+1462339580 source:c:\users\a\desktop\lab3\supadrive.c
+	"supadrive.h"
+	"client.h"
+	"file.h"
+	<stdlib.h>
+
+1462339392 c:\users\a\desktop\lab3\supadrive.h
+	"client.h"
+	"file.h"
+	<stdlib.h>
+
+1462335083 source:c:\users\nadine\desktop\lab3\client.c
+	"client.h"
+	<stdlib.h>
+	<string.h>
+
+1462335078 c:\users\nadine\desktop\lab3\client.h
+
+1462339263 source:c:\users\nadine\desktop\lab3\file.c
+	"file.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
+1462334570 c:\users\nadine\desktop\lab3\file.h
+	<stdlib.h>
+
+1462340350 source:c:\users\nadine\desktop\lab3\main.c
+	"file.h"
+	"client.h"
+	"supadrive.h"
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<stdarg.h>
+	<stddef.h>
+	<setjmp.h>
+	<cmocka.h>
+
+1462339392 c:\users\nadine\desktop\lab3\supadrive.h
+	"client.h"
+	"file.h"
+	<stdlib.h>
+
+1462339580 source:c:\users\nadine\desktop\lab3\supadrive.c
+	"supadrive.h"
+	"client.h"
+	"file.h"
+	<stdlib.h>
+
+1462335083 source:c:\users\nadine\documents\github\courses\courses\prog_base_2\labs\lab3\client.c
+	"client.h"
+	<stdlib.h>
+	<string.h>
+
+1462335078 c:\users\nadine\documents\github\courses\courses\prog_base_2\labs\lab3\client.h
+
+1462339263 source:c:\users\nadine\documents\github\courses\courses\prog_base_2\labs\lab3\file.c
+	"file.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
+1462334570 c:\users\nadine\documents\github\courses\courses\prog_base_2\labs\lab3\file.h
+	<stdlib.h>
+
+1462340350 source:c:\users\nadine\documents\github\courses\courses\prog_base_2\labs\lab3\main.c
+	"file.h"
+	"client.h"
+	"supadrive.h"
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<stdarg.h>
+	<stddef.h>
+	<setjmp.h>
+	<cmocka.h>
+
+1462339392 c:\users\nadine\documents\github\courses\courses\prog_base_2\labs\lab3\supadrive.h
+	"client.h"
+	"file.h"
+	<stdlib.h>
+
+1462339580 source:c:\users\nadine\documents\github\courses\courses\prog_base_2\labs\lab3\supadrive.c
+	"supadrive.h"
+	"client.h"
+	"file.h"
+	<stdlib.h>
+

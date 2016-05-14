@@ -2,6 +2,7 @@
 
 #include <stdio.h>
 #include <string.h>
+#include "../Lab2StaticLib/stack.h"
 
 void stack_fill(stack_t *stack) {
     char buffer[1024];

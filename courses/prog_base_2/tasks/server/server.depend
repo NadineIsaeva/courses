@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1462282609 source:c:\users\nadine\documents\github\courses\courses\prog_base_2\tasks\server\cjson.c
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<float.h>
+	<limits.h>
+	<ctype.h>
+	"cJSON.h"
+
+1462282609 c:\users\nadine\documents\github\courses\courses\prog_base_2\tasks\server\cjson.h
+
+1462282609 source:c:\users\nadine\documents\github\courses\courses\prog_base_2\tasks\server\directors.c
+	"directors.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"cJSON.h"
+
+1462282609 c:\users\nadine\documents\github\courses\courses\prog_base_2\tasks\server\directors.h
+	<time.h>
+
+1462282609 source:c:\users\nadine\documents\github\courses\courses\prog_base_2\tasks\server\http_server.c
+	"http_server.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	<winsock2.h>
+	<windows.h>
+	"cJSON.h"
+
+1462282609 c:\users\nadine\documents\github\courses\courses\prog_base_2\tasks\server\http_server.h
+	"directors.h"
+
+1462282609 source:c:\users\nadine\documents\github\courses\courses\prog_base_2\tasks\server\main.c
+	"directors.h"
+	"http_server.h"
+
