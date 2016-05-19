@@ -48,7 +48,7 @@ void stack_print(stack_t *stack) {
 
 void stack_delete(stack_t *stack) {
     for (size_t i = 0; i < stack->size; ++i)
-        free(stack->strArr[i]);
+    free(stack->strArr[i]);
     free(stack->strArr);
     free(stack);
 }

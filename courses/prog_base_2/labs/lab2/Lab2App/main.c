@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <windows.h>
-#include "../Lab2StaticLib/stack.h"
+#include "stack.h"
 
 const char *dll1 = "Lab2DLL1.dll";
 const char *dll2 = "Lab2DLL2.dll";
@@ -29,6 +29,7 @@ int main() {
     }
 
     stack_delete(stack);
+    FreeLibrary(hLib);
 
     return 0;
 }

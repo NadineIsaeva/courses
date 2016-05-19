@@ -1,4 +1,4 @@
-#include "../Lab2DLL1/main.h"
+#include "main.h"
 
 #include <stdlib.h>
 #include <stdio.h>

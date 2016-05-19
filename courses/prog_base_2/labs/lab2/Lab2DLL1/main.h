@@ -15,7 +15,7 @@ extern "C"
 {
 #endif
 
-#include "../Lab2StaticLib/stack.h"
+#include "stack.h"
 
 void DLL_EXPORT stack_fill(stack_t *stack);
 void DLL_EXPORT stack_overflowReact(stack_t *stack);
