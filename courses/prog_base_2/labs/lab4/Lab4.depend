@@ -1,0 +1,95 @@
+# depslib dependency file v1.0
+1462450077 source:c:\users\a\desktop\lab4\main.c
+	"http_server.h"
+	"directors.h"
+	"middleware.h"
+
+1462462207 c:\users\a\desktop\lab4\http_server.h
+
+1462462376 source:c:\users\a\desktop\lab4\http_server.c
+	"http_server.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<winsock2.h>
+	"middleware.h"
+
+1462461833 source:c:\users\a\desktop\lab4\directors.c
+	"directors.h"
+	<stdlib.h>
+	<string.h>
+
+1462461815 c:\users\a\desktop\lab4\directors.h
+	<time.h>
+
+1460288018 source:c:\users\a\desktop\lab4\cjson.c
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<float.h>
+	<limits.h>
+	<ctype.h>
+	"cJSON.h"
+
+1460288018 c:\users\a\desktop\lab4\cjson.h
+
+1462444511 c:\users\a\desktop\lab4\middleware.h
+	"directors.h"
+	"http_server.h"
+
+1462462558 source:c:\users\a\desktop\lab4\middleware.c
+	"middleware.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"cJSON.h"
+
+1460288018 source:c:\users\nadine\desktop\lab4\cjson.c
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<float.h>
+	<limits.h>
+	<ctype.h>
+	"cJSON.h"
+
+1460288018 c:\users\nadine\desktop\lab4\cjson.h
+
+1462461833 source:c:\users\nadine\desktop\lab4\directors.c
+	"directors.h"
+	<stdlib.h>
+	<string.h>
+
+1462461815 c:\users\nadine\desktop\lab4\directors.h
+	<time.h>
+
+1462462376 source:c:\users\nadine\desktop\lab4\http_server.c
+	"http_server.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<winsock2.h>
+	"middleware.h"
+
+1462462207 c:\users\nadine\desktop\lab4\http_server.h
+
+1462444511 c:\users\nadine\desktop\lab4\middleware.h
+	"directors.h"
+	"http_server.h"
+
+1462450077 source:c:\users\nadine\desktop\lab4\main.c
+	"http_server.h"
+	"directors.h"
+	"middleware.h"
+
+1462477102 source:c:\users\nadine\desktop\lab4\middleware.c
+	"middleware.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"cJSON.h"
+
