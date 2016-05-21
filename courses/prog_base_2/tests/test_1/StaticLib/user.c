@@ -22,4 +22,3 @@ void user_delete(user_t *user) {
     free(user->name);
     free(user);
 }
-
