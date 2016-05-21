@@ -171,7 +171,7 @@ int callback(middleware_t *middleware, http_method_t http_method, const char *ur
         stradd(response, "<html><body><h1>Hello!</h1><br>");
         stradd(response, "<h2>Navigate to <a href=\"/directors\">directors list</a></h2><br>");
         stradd(response, "<h2>Navigate to <a href=\"/api/directors\">api</a></h2><br>");
-        stradd(response, "<body><html>");
+        stradd(response, "</body></html>");
         return 1;
     } else if (strcmp(url, "/directors") == 0) {
         if (http_method == http_method_get) {
@@ -259,7 +259,7 @@ int callback(middleware_t *middleware, http_method_t http_method, const char *ur
 
                 stradd(response, "<li>");
                 stradd(response, "Birthdate: ");
-                sprintf(buffer, "%i-%i-%i", director->birthdate.tm_year, director->birthdate.tm_mon, director->birthdate.tm_mday);
+                sprintf(buffer, "%i-%i-%i", director->birthdate.tm_year + 1900, director->birthdate.tm_mon + 1, director->birthdate.tm_mday);
                 stradd(response, buffer);
                 stradd(response, "</li>");
 

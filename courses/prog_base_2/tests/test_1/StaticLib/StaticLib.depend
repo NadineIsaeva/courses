@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1463829393 source:c:\users\nadine\documents\github\courses\courses\prog_base_2\tests\test_1\staticlib\user.c
+	"user.h"
+	<stdlib.h>
+	<string.h>
+
+1463829411 c:\users\nadine\documents\github\courses\courses\prog_base_2\tests\test_1\staticlib\user.h
+
