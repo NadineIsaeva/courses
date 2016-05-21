@@ -1,5 +1,6 @@
 # depslib dependency file v1.0
-1463832858 source:c:\users\nadine\documents\github\courses\courses\prog_base_2\tests\test_1\app\main.c
-	"user.h"
-	"doc.h"
+1463833618 source:c:\users\nadine\documents\github\courses\courses\prog_base_2\tests\test_1\app\main.c
+	<user.h>
+	<doc.h>
+	<stdio.h>
 

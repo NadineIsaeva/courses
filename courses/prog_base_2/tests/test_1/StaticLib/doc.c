@@ -1,4 +1,5 @@
 #include "doc.h"
+#include "user.h"
 
 #include <stdlib.h>
 #include <string.h>
@@ -80,9 +81,9 @@ int doc_text(doc_t *doc, user_t *user, char *text) {
         strcpy(text, doc->text);
 
         for (size_t i = 0; i < doc->numberOfModifications; ++i) {
-            memmove(doc->text + doc->modifications[i].pos, doc->text + doc->modifications[i].pos + doc->modifications[i].length, ((strlen(doc->text) + 1) - (doc->modifications[i].pos + doc->modifications[i].length) - 1) * sizeof(char));
-            memmove(doc->text + doc->modifications[i].pos + strlen(text), doc->text + doc->modifications[i].pos, ((strlen(doc->text) + 1) - doc->modifications[i].pos - 1) * sizeof(char));
-            memmove(doc->text + doc->modifications[i].pos, text, strlen(text) * sizeof(char));
+            memmove(text + doc->modifications[i].pos, text + doc->modifications[i].pos + doc->modifications[i].length, ((strlen(text) + 1) - (doc->modifications[i].pos + doc->modifications[i].length)) * sizeof(char));
+            memmove(text + doc->modifications[i].pos + strlen(doc->modifications[i].text), text + doc->modifications[i].pos, ((strlen(text) + 1) - doc->modifications[i].pos) * sizeof(char));
+            memmove(text + doc->modifications[i].pos, doc->modifications[i].text, strlen(doc->modifications[i].text) * sizeof(char));
         }
 
         return 1;
@@ -103,6 +104,10 @@ int doc_modify(doc_t *doc, user_t *user, size_t pos, size_t length, const char *
         strcpy(doc->modifications[doc->numberOfModifications - 1].text, text);
         time_t currentTime = time(NULL);
         memcpy(&doc->modifications[doc->numberOfModifications - 1].time, localtime(&currentTime), sizeof(struct tm));
+
+        for (size_t i = 0; i < doc->numberOfCallbacks; ++i)
+            doc->callbacks[i](doc, &doc->modifications[doc->numberOfModifications - 1]);
+
         return 1;
     }
 
@@ -123,4 +128,3 @@ void doc_delete(doc_t *doc) {
     free(doc->callbacks);
     free(doc);
 }
-

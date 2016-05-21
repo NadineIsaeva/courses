@@ -34,6 +34,9 @@
 				</Linker>
 			</Target>
 		</Build>
+		<Unit filename="doc.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="doc.h" />
 		<Unit filename="user.c">
 			<Option compilerVar="CC" />
