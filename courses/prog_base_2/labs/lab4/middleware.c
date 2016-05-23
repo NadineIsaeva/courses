@@ -171,7 +171,7 @@ int callback(middleware_t *middleware, http_method_t http_method, const char *ur
         stradd(response, "<html><body><h1>Hello!</h1><br>");
         stradd(response, "<h2>Navigate to <a href=\"/directors\">directors list</a></h2><br>");
         stradd(response, "<h2>Navigate to <a href=\"/api/directors\">api</a></h2><br>");
-        stradd(response, "</body></html>");
+        stradd(response, "<body><html>");
         return 1;
     } else if (strcmp(url, "/directors") == 0) {
         if (http_method == http_method_get) {
@@ -204,12 +204,26 @@ int callback(middleware_t *middleware, http_method_t http_method, const char *ur
             url_params_t *url_params = url_params_parse(request);
 
             const char *name = url_params_get(url_params, "name");
+            if((strlen(name)) == 0)
+                return 0;
             const char *surname = url_params_get(url_params, "surname");
+            if((strlen(surname)) == 0)
+                return 0;
             const char *salary = url_params_get(url_params, "salary");
+            if((strlen(salary)) == 0)
+                return 0;
             const char *rating = url_params_get(url_params, "rating");
+            if((strlen(rating)) == 0)
+                return 0;
             const char *birthdate = url_params_get(url_params, "birthdate");
+            if((strlen(birthdate)) == 0)
+                return 0;
             const char *startupName = url_params_get(url_params, "startup_name");
+            if((strlen(startupName)) == 0)
+                return 0;
             const char *startupCountry = url_params_get(url_params, "startup_country");
+            if((strlen(startupCountry)) == 0)
+                return 0;
 
             director_t director;
             strcpy(director.name, name);

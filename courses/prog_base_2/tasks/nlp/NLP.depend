@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1463978043 source:c:\users\a\desktop\nlp\list.c
+	"list.h"
+	<stdlib.h>
+	<string.h>
+
+1463956285 c:\users\a\desktop\nlp\list.h
+	<stdlib.h>
+
+1463978548 source:c:\users\a\desktop\nlp\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"list.h"
+	"nlp.h"
+
+1463978605 source:c:\users\a\desktop\nlp\nlp.c
+	"nlp.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
+1463978445 c:\users\a\desktop\nlp\nlp.h
+	<stdlib.h>
+	<stdio.h>
+	"list.h"
+
+1463978043 source:c:\users\nadine\desktop\nlp\list.c
+	"list.h"
+	<stdlib.h>
+	<string.h>
+
+1463956285 c:\users\nadine\desktop\nlp\list.h
+	<stdlib.h>
+
+1463978632 source:c:\users\nadine\desktop\nlp\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"list.h"
+	"nlp.h"
+
+1463978445 c:\users\nadine\desktop\nlp\nlp.h
+	<stdlib.h>
+	<stdio.h>
+	"list.h"
+
+1463978605 source:c:\users\nadine\desktop\nlp\nlp.c
+	"nlp.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
