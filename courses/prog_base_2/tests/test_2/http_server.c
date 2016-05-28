@@ -77,6 +77,7 @@ void makeHttpResponse(const char *message, char *response) {
     *response = '\0';
 
     stradd(response, "HTTP/1.1 200 OK\r\n");
+    stradd(response, "Content-type: application/json\r\n");
     stradd(response, "Content-length: ");
     char contentLengthStr[32];
     sprintf(contentLengthStr, "%u", strlen(message));

@@ -6,6 +6,7 @@
 #include <time.h>
 #include "cJSON.h"
 #include "list.h"
+#include "director.h"
 
 struct middleware_s {
     http_client_t *http_client;
@@ -93,9 +94,42 @@ int callback(middleware_t *middleware, http_method_t http_method, const char *ur
         return 1;
     } else if (strcmp(url, "/database") == 0) {
         list_t *directors = db_directors(middleware->db);
+        cJSON *json = cJSON_CreateArray();
 
+        url_params_t *url_params = url_params_parse(urlParamStr);
+        const char *nameStr = url_params_get(url_params, "name");
+        const char *surnameStr = url_params_get(url_params, "surname");
 
+        for (size_t i = 0; i < list_size(directors); ++i) {
+            director_t *director = list_get(directors, i);
+            if (nameStr && surnameStr)
+                continue;
+            if (nameStr && (strcmp(nameStr, director->name) != 0))
+                continue;
+            if (surnameStr && (strcmp(surnameStr, director->surname) != 0))
+                continue;
 
+            cJSON *jsonDir = cJSON_CreateObject();
+
+            cJSON_AddNumberToObject(jsonDir, "id", director->id);
+            cJSON_AddStringToObject(jsonDir, "name", director->name);
+            cJSON_AddStringToObject(jsonDir, "surname", director->surname);
+            cJSON_AddNumberToObject(jsonDir, "salary", director->salary);
+            cJSON_AddNumberToObject(jsonDir, "rating", director->rating);
+            char birthdateStr[128];
+            sprintf(birthdateStr, "%i-%i-%i", director->birthDate.tm_year + 1900, director->birthDate.tm_mon + 1, director->birthDate.tm_mday);
+            cJSON_AddStringToObject(jsonDir, "birthDate", birthdateStr);
+            cJSON *jsonStartup = cJSON_CreateObject();
+            cJSON_AddStringToObject(jsonStartup, "name", director->startup.name);
+            cJSON_AddStringToObject(jsonStartup, "country", director->startup.country);
+            cJSON_AddItemToObject(jsonDir, "startup", jsonStartup);
+
+            cJSON_AddItemToArray(json, jsonDir);
+        }
+
+        strcpy(response, cJSON_Print(json));
+
+        cJSON_Delete(json);
         list_delete(directors);
         return 1;
     }
