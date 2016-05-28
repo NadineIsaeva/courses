@@ -1,0 +1,145 @@
+# depslib dependency file v1.0
+1460288018 source:c:\users\a\desktop\lab5\cjson.c
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<float.h>
+	<limits.h>
+	<ctype.h>
+	"cJSON.h"
+
+1460288018 c:\users\a\desktop\lab5\cjson.h
+
+1462548970 source:c:\users\a\desktop\lab5\http_server.c
+	"http_server.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<winsock2.h>
+	"middleware.h"
+
+1462548199 c:\users\a\desktop\lab5\http_server.h
+
+1462444511 c:\users\a\desktop\lab5\middleware.h
+	"directors.h"
+	"http_server.h"
+
+1462549440 c:\users\a\desktop\lab5\directors.h
+	<time.h>
+
+1462450077 source:c:\users\a\desktop\lab5\main.c
+	"http_server.h"
+	"directors.h"
+	"middleware.h"
+
+1462549439 source:c:\users\a\desktop\lab5\middleware.c
+	"middleware.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"cJSON.h"
+
+1462549519 source:c:\users\a\desktop\lab5\directors.c
+	"directors.h"
+	<stdlib.h>
+	<string.h>
+	<sqlite3.h>
+
+1460288018 source:c:\users\nadine\desktop\lab5\cjson.c
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<float.h>
+	<limits.h>
+	<ctype.h>
+	"cJSON.h"
+
+1460288018 c:\users\nadine\desktop\lab5\cjson.h
+
+1462549519 source:c:\users\nadine\desktop\lab5\directors.c
+	"directors.h"
+	<stdlib.h>
+	<string.h>
+	<sqlite3.h>
+
+1462549440 c:\users\nadine\desktop\lab5\directors.h
+	<time.h>
+
+1462548970 source:c:\users\nadine\desktop\lab5\http_server.c
+	"http_server.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<winsock2.h>
+	"middleware.h"
+
+1462548199 c:\users\nadine\desktop\lab5\http_server.h
+
+1462444511 c:\users\nadine\desktop\lab5\middleware.h
+	"directors.h"
+	"http_server.h"
+
+1462450077 source:c:\users\nadine\desktop\lab5\main.c
+	"http_server.h"
+	"directors.h"
+	"middleware.h"
+
+1462549877 source:c:\users\nadine\desktop\lab5\middleware.c
+	"middleware.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"cJSON.h"
+
+1460288018 source:c:\users\nadine\documents\github\courses\courses\prog_base_2\labs\lab5\cjson.c
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<float.h>
+	<limits.h>
+	<ctype.h>
+	"cJSON.h"
+
+1460288018 c:\users\nadine\documents\github\courses\courses\prog_base_2\labs\lab5\cjson.h
+
+1462549519 source:c:\users\nadine\documents\github\courses\courses\prog_base_2\labs\lab5\directors.c
+	"directors.h"
+	<stdlib.h>
+	<string.h>
+	<sqlite3.h>
+
+1462549440 c:\users\nadine\documents\github\courses\courses\prog_base_2\labs\lab5\directors.h
+	<time.h>
+
+1462548970 source:c:\users\nadine\documents\github\courses\courses\prog_base_2\labs\lab5\http_server.c
+	"http_server.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<winsock2.h>
+	"middleware.h"
+
+1462548199 c:\users\nadine\documents\github\courses\courses\prog_base_2\labs\lab5\http_server.h
+
+1462444511 c:\users\nadine\documents\github\courses\courses\prog_base_2\labs\lab5\middleware.h
+	"directors.h"
+	"http_server.h"
+
+1462450077 source:c:\users\nadine\documents\github\courses\courses\prog_base_2\labs\lab5\main.c
+	"http_server.h"
+	"directors.h"
+	"middleware.h"
+
+1462549877 source:c:\users\nadine\documents\github\courses\courses\prog_base_2\labs\lab5\middleware.c
+	"middleware.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"cJSON.h"
+
