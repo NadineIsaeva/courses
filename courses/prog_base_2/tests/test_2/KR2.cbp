@@ -31,9 +31,37 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="cJSON.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cJSON.h" />
+		<Unit filename="db.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="db.h" />
+		<Unit filename="director.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="director.h" />
+		<Unit filename="http_client.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="http_client.h" />
+		<Unit filename="http_server.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="http_server.h" />
+		<Unit filename="list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="list.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="middleware.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="middleware.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
