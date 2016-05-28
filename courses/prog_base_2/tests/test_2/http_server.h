@@ -22,4 +22,3 @@ void http_server_delete(http_server_t *http_server);
 void stradd(char *str, const char *add);
 
 #endif // HTTP_SERVER_H
-

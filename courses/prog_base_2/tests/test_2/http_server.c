@@ -202,4 +202,3 @@ void http_server_start(http_server_t *http_server) {
 void http_server_delete(http_server_t *http_server) {
     free(http_server);
 }
-

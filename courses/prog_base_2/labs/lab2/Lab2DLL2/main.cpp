@@ -6,8 +6,6 @@
 #include <time.h>
 #include <conio.h>
 
-fp = int ** (*func) (int *);
-
 void stack_fill(stack_t *stack) {
     printf("Press any key to push random str: ");
     _getch();
