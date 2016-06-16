@@ -14,10 +14,13 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         startwindow.cpp \
-    memeswindow.cpp
+    memeswindow.cpp \
+    chooselocalmeme.cpp
 
 HEADERS  += startwindow.h \
-    memeswindow.h
+    memeswindow.h \
+    chooselocalmeme.h
 
 FORMS    += startwindow.ui \
-    memeswindow.ui
+    memeswindow.ui \
+    chooselocalmeme.ui
