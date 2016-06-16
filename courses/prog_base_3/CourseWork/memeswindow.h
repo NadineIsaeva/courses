@@ -3,6 +3,7 @@
 
 #include <QDialog>
 #include "chooselocalmeme.h"
+#include "choosecolor.h"
 
 namespace Ui {
 class MemesWindow;
@@ -25,11 +26,15 @@ private slots:
 
     void on_pushButton_clicked();
 
+    void on_pushButton_2_clicked();
+
 private:
     Ui::MemesWindow *ui;
-    ChooseLocalMeme w;
+    ChooseLocalMeme choose_local_meme_window;
+    ChooseColor choose_color_window;
     QImage meme_to_edit;
     QString meme_file_to_edit;
+    QColor meme_text_color;
 };
 
 #endif // MEMESWINDOW_H

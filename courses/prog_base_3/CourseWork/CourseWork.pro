@@ -15,12 +15,15 @@ TEMPLATE = app
 SOURCES += main.cpp\
         startwindow.cpp \
     memeswindow.cpp \
-    chooselocalmeme.cpp
+    chooselocalmeme.cpp \
+    choosecolor.cpp
 
 HEADERS  += startwindow.h \
     memeswindow.h \
-    chooselocalmeme.h
+    chooselocalmeme.h \
+    choosecolor.h
 
 FORMS    += startwindow.ui \
     memeswindow.ui \
-    chooselocalmeme.ui
+    chooselocalmeme.ui \
+    choosecolor.ui

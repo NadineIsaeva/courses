@@ -17,6 +17,8 @@ MemesWindow::MemesWindow(QWidget *parent) :
     meme_to_edit.load(meme_file_to_edit);
     meme_to_edit = meme_to_edit.scaled(ui->label->width(),ui->label->height(),Qt::KeepAspectRatio);
     ui->label->setPixmap(QPixmap::fromImage(meme_to_edit));
+
+    meme_text_color = Qt::white;
 }
 
 MemesWindow::~MemesWindow()
@@ -65,7 +67,7 @@ void MemesWindow::on_lineEdit_2_textChanged(const QString &arg1)
     path.addText(point_down,font2,ui->lineEdit->text().toUpper());
     painter.drawPath(path);
 
-    pen.setColor(Qt::white);
+    pen.setColor(meme_text_color);
     painter.setPen(pen);
     painter.setFont(font1);
     painter.drawText(point_up,arg1.toUpper());
@@ -111,7 +113,7 @@ void MemesWindow::on_lineEdit_textChanged(const QString &arg1)
     path.addText(point_down,font2,arg1.toUpper());
     painter.drawPath(path);
 
-    pen.setColor(Qt::white);
+    pen.setColor(meme_text_color);
     painter.setPen(pen);
     painter.setFont(font1);
     painter.drawText(point_up,ui->lineEdit_2->text().toUpper());
@@ -123,8 +125,13 @@ void MemesWindow::on_lineEdit_textChanged(const QString &arg1)
 
 void MemesWindow::on_pushButton_clicked()
 {
-    meme_file_to_edit = w.getOpenFileName();
+    meme_file_to_edit = choose_local_meme_window.getOpenFileName();
     meme_to_edit.load(meme_file_to_edit);
     meme_to_edit = meme_to_edit.scaled(ui->label->width(),ui->label->height(),Qt::KeepAspectRatio);
     ui->label->setPixmap(QPixmap::fromImage(meme_to_edit));
+}
+
+void MemesWindow::on_pushButton_2_clicked()
+{
+    meme_text_color = choose_color_window.getColor();
 }
