@@ -6,25 +6,52 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>776</width>
-    <height>489</height>
+    <width>800</width>
+    <height>800</height>
    </rect>
   </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
   <property name="windowTitle">
-   <string>StartWindow</string>
+   <string>GO MEMES</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>D:/KPI/courses-master/courses/prog_base_3/build-CourseWork-Desktop_Qt_5_5_1_MinGW_32bit-Debug/smile_icon.bmp</normaloff>D:/KPI/courses-master/courses/prog_base_3/build-CourseWork-Desktop_Qt_5_5_1_MinGW_32bit-Debug/smile_icon.bmp</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow{
+	image:url(start_page.jpg);
+}</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>140</x>
-      <y>110</y>
-      <width>351</width>
-      <height>181</height>
+      <x>166</x>
+      <y>156</y>
+      <width>370</width>
+      <height>74</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Impact</family>
+      <pointsize>36</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	color:white;
+	background-color: rgb(19,179,115);
+}</string>
+    </property>
     <property name="text">
-     <string>GO MEMES</string>
+     <string>MEME STREET</string>
     </property>
    </widget>
   </widget>

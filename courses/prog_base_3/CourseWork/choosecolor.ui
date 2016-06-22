@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>ChooseColor</class>
  <widget class="QDialog" name="ChooseColor">
@@ -11,6 +12,10 @@
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>D:/KPI/courses-master/courses/prog_base_3/build-CourseWork-Desktop_Qt_5_5_1_MinGW_32bit-Debug/smile_icon.bmp</normaloff>D:/KPI/courses-master/courses/prog_base_3/build-CourseWork-Desktop_Qt_5_5_1_MinGW_32bit-Debug/smile_icon.bmp</iconset>
   </property>
  </widget>
  <resources/>

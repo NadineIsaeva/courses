@@ -1,28 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>ChooseLocalMeme</class>
- <widget class="QDialog" name="ChooseLocalMeme">
+ <class>MemesCollection</class>
+ <widget class="QDialog" name="MemesCollection">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>438</width>
-    <height>322</height>
+    <width>904</width>
+    <height>545</height>
    </rect>
   </property>
-  <property name="minimumSize">
-   <size>
-    <width>400</width>
-    <height>0</height>
-   </size>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Collection</string>
   </property>
   <property name="windowIcon">
    <iconset>
     <normaloff>D:/KPI/courses-master/courses/prog_base_3/build-CourseWork-Desktop_Qt_5_5_1_MinGW_32bit-Debug/smile_icon.bmp</normaloff>D:/KPI/courses-master/courses/prog_base_3/build-CourseWork-Desktop_Qt_5_5_1_MinGW_32bit-Debug/smile_icon.bmp</iconset>
   </property>
+  <property name="styleSheet">
+   <string notr="true">QLabel:hover{
+	opacity:50;
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout"/>
  </widget>
  <resources/>
  <connections/>
