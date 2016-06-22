@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>800</height>
+    <width>500</width>
+    <height>500</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -21,7 +21,7 @@
   </property>
   <property name="windowIcon">
    <iconset>
-    <normaloff>D:/KPI/courses-master/courses/prog_base_3/build-CourseWork-Desktop_Qt_5_5_1_MinGW_32bit-Debug/smile_icon.bmp</normaloff>D:/KPI/courses-master/courses/prog_base_3/build-CourseWork-Desktop_Qt_5_5_1_MinGW_32bit-Debug/smile_icon.bmp</iconset>
+    <normaloff>../../../../../build-CourseWork-Desktop_Qt_5_6_0_MinGW_32bit-Debug/smile_icon.bmp</normaloff>../../../../../build-CourseWork-Desktop_Qt_5_6_0_MinGW_32bit-Debug/smile_icon.bmp</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true">QMainWindow{
@@ -32,16 +32,16 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>166</x>
-      <y>156</y>
-      <width>370</width>
-      <height>74</height>
+      <x>105</x>
+      <y>98</y>
+      <width>232</width>
+      <height>45</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Impact</family>
-      <pointsize>36</pointsize>
+      <pointsize>20</pointsize>
      </font>
     </property>
     <property name="styleSheet">

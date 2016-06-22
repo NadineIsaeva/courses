@@ -83,7 +83,6 @@ void MemesWindow::on_lineEdit_2_textChanged(const QString &arg1)
     QPainter painter(&meme_to_edit);
 
     double font_size1_px = meme_to_edit.height()/8;
-    qDebug()<< font_size1_px;
     while ((font_size1_px/2) * (arg1.length() + 5) > meme_to_edit.width()){
         font_size1_px -= 1;
     }
